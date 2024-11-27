@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.dragged{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: rgb(216, 178, 216);
+    border-radius: 5px;
+    border: 2px dashed purple;
+}
+
+.dragged i{
+    font-size: 40px;
+    cursor: pointer;
+    color: purple;
+    position: absolute;
+}
+
+#file{
+    padding: 10px 5px;
+    margin-left: 250px;
+    z-index: 1000;
+    position: absolute;
+    display: none;
+}
+
+label{
+    cursor: pointer;
+    z-index: 10000;
+    padding: 10px;
+    opacity: 0;
+}
+
+.container{
+    margin: auto;
+    width: 60%;
+}
+
+.remove{
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    transition: 0.3s;
+}
+.remove:hover{
+
+    background-color: rgb(139, 98, 139);
+
+}
+
+table th{
+    font-size: 16px;
+    padding: 0 50px;
+    background-color: plum;
+}
+
+table{
+    margin-top: 30px;
+
+}
+
+tbody{
+    background-color: rgb(235, 225, 235);
+}
